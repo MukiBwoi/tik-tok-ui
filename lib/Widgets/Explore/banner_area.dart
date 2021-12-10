@@ -8,7 +8,7 @@ class DiscoverBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 200,
-      color: kBlack,
+      color: kGrey,
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tiktok_ui/Constants/colors.dart';
+import 'package:tiktok_ui/Widgets/Profile%20Screen/Profile%20Area/Media%20Menu/create_video.dart';
 import 'package:tiktok_ui/Widgets/Profile%20Screen/Profile%20Area/Media%20Menu/favorite_videos.dart';
 import 'package:tiktok_ui/Widgets/Profile%20Screen/Profile%20Area/Media%20Menu/private_files.dart';
 
@@ -28,7 +29,7 @@ class _MediaMenuState extends State<MediaMenu> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     List<Widget> _kTabViews = const [
-      Center(child: Icon(Icons.ac_unit)),
+      CreateVideo(),
       FavoriteVideos(),
       PrivateFiles(),
     ];

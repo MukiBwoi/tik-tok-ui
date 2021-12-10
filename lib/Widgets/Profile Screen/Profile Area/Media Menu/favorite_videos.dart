@@ -19,7 +19,7 @@ class FavoriteVideos extends StatelessWidget {
           itemCount: 8,
           itemBuilder: (BuildContext context, int index) {
             return Container(
-              color: kBlack,
+              color: kGrey,
             );
           },
         ),

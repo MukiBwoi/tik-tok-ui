@@ -8,7 +8,7 @@ class ProfileAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return  const CircleAvatar(
           radius: 55,
-          backgroundColor: kBlack,
+          backgroundColor: kGrey,
         );
   }
 }

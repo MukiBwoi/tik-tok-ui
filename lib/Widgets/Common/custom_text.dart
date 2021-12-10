@@ -5,13 +5,15 @@ class CustomText extends StatelessWidget {
   final Color textColor;
   final double? fontSize;
   final FontWeight? fontWeight;
-  const CustomText(
-      {Key? key,
-      required this.text,
-      required this.textColor,
-      this.fontSize,
-      this.fontWeight})
-      : super(key: key);
+  final TextAlign? textAlign;
+  const CustomText({
+    Key? key,
+    required this.text,
+    required this.textColor,
+    this.fontSize,
+    this.fontWeight,
+    this.textAlign,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +22,7 @@ class CustomText extends StatelessWidget {
     return Text(
       text,
       style: appbarTextStyle,
+      textAlign: textAlign,
     );
   }
 }

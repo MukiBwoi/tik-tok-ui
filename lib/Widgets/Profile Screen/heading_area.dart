@@ -10,19 +10,25 @@ class HeadingArea extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double? size = 22;
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          IconButton(onPressed: () {}, icon: const Icon(Icons.person)),
-          const CustomText(
+          IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.person,
+                size: size,
+              )),
+          CustomText(
             text: "MukiBwoi",
             textColor: kBlack,
             fontWeight: FontWeight.bold,
+            fontSize: size,
           ),
-
-           IconButton(onPressed: (){}, icon: )
+          IconButton(onPressed: () {}, icon:  Icon(Icons.menu,size: size))
         ],
       ),
     );

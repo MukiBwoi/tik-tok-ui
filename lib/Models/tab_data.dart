@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_ui/Widgets/Explore/explore.dart';
-import 'package:tiktok_ui/Widgets/Profile%20Screen/profile_screen.dart';
+import 'package:tiktok_ui/Screens/Explore/explore.dart';
+import 'package:tiktok_ui/Screens/Profile/profile_screen.dart';
 import 'package:tiktok_ui/Widgets/Video%20Space/video_area.dart';
 
 class TabData {
